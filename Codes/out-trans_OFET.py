@@ -9,7 +9,7 @@
     VERSION:     20201016
 """
 
-#### Physical constants and global parameters ###
+### Physical constants and global parameters ###
 #
 Ci   = 1.0e-5  # Capacitance per unit area      [F/m^2]
 W    = 1.0e-3  # Width of chanel                [m]
@@ -19,7 +19,7 @@ Vt   = 0.15    # Threshold voltage              [V]
 dV   = 0.001   # Voltage pass                   [V]
 Vmax = 0.5     # Maximum voltage to simulations [V]
 
-#### Output curves loop ###
+### Output curves loop ###
 #
 fo = open("output_IdxVd.dat","w")
 
@@ -38,7 +38,7 @@ while Vd <= Vmax:
     
 fo.close()
 
-#### Transfer curves loop ###
+### Transfer curves loop ###
 #
 fo = open("output_IdxVg.dat","w")
 
