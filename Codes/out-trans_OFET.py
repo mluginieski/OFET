@@ -6,7 +6,7 @@
                  data. The standard names are: output_IdxVd.dat, output_IdxVg.dat
                  
     CONTACT:     mluginieski@alunos.utfpr.edu.br
-    VERSION:     20201016
+    VERSION:     20201216
 """
 
 ### Physical constants and global parameters ###
